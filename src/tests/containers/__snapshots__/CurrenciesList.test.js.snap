@@ -1,0 +1,1012 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render currencies list 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CurrenciesList
+    amount={20}
+    rates={
+        Object {
+            "CAD": 1.565,
+            "CHF": 1.1798,
+          }
+    }
+    selectedCurrency="USD"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          Array [
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+          Array [
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ],
+        <div
+          className="row"
+>
+          <div
+                    className="col"
+          >
+                    <select
+                              className="custom-select form-control"
+                              onChange={[Function]}
+                    >
+                              <option
+                                        value="add"
+                              >
+                                        Add another Currency
+                              </option>
+                              <option
+                                        value="USD"
+                              >
+                                        USD
+                              </option>
+                              <option
+                                        value="EUR"
+                              >
+                                        EUR
+                              </option>
+                              <option
+                                        value="CAD"
+                              >
+                                        CAD
+                              </option>
+                              <option
+                                        value="IDR"
+                              >
+                                        IDR
+                              </option>
+                              <option
+                                        value="GBP"
+                              >
+                                        GBP
+                              </option>
+                              <option
+                                        value="CHF"
+                              >
+                                        CHF
+                              </option>
+                              <option
+                                        value="SGD"
+                              >
+                                        SGD
+                              </option>
+                              <option
+                                        value="INR"
+                              >
+                                        INR
+                              </option>
+                              <option
+                                        value="MYR"
+                              >
+                                        MYR
+                              </option>
+                              <option
+                                        value="JPY"
+                              >
+                                        JPY
+                              </option>
+                              <option
+                                        value="KRW"
+                              >
+                                        KRW
+                              </option>
+                    </select>
+          </div>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="col"
+>
+            <select
+                        className="custom-select form-control"
+                        onChange={[Function]}
+            >
+                        <option
+                                    value="add"
+                        >
+                                    Add another Currency
+                        </option>
+                        <option
+                                    value="USD"
+                        >
+                                    USD
+                        </option>
+                        <option
+                                    value="EUR"
+                        >
+                                    EUR
+                        </option>
+                        <option
+                                    value="CAD"
+                        >
+                                    CAD
+                        </option>
+                        <option
+                                    value="IDR"
+                        >
+                                    IDR
+                        </option>
+                        <option
+                                    value="GBP"
+                        >
+                                    GBP
+                        </option>
+                        <option
+                                    value="CHF"
+                        >
+                                    CHF
+                        </option>
+                        <option
+                                    value="SGD"
+                        >
+                                    SGD
+                        </option>
+                        <option
+                                    value="INR"
+                        >
+                                    INR
+                        </option>
+                        <option
+                                    value="MYR"
+                        >
+                                    MYR
+                        </option>
+                        <option
+                                    value="JPY"
+                        >
+                                    JPY
+                        </option>
+                        <option
+                                    value="KRW"
+                        >
+                                    KRW
+                        </option>
+            </select>
+</div>,
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <select
+              className="custom-select form-control"
+              onChange={[Function]}
+>
+              <option
+                            value="add"
+              >
+                            Add another Currency
+              </option>
+              <option
+                            value="USD"
+              >
+                            USD
+              </option>
+              <option
+                            value="EUR"
+              >
+                            EUR
+              </option>
+              <option
+                            value="CAD"
+              >
+                            CAD
+              </option>
+              <option
+                            value="IDR"
+              >
+                            IDR
+              </option>
+              <option
+                            value="GBP"
+              >
+                            GBP
+              </option>
+              <option
+                            value="CHF"
+              >
+                            CHF
+              </option>
+              <option
+                            value="SGD"
+              >
+                            SGD
+              </option>
+              <option
+                            value="INR"
+              >
+                            INR
+              </option>
+              <option
+                            value="MYR"
+              >
+                            MYR
+              </option>
+              <option
+                            value="JPY"
+              >
+                            JPY
+              </option>
+              <option
+                            value="KRW"
+              >
+                            KRW
+              </option>
+</select>,
+            "className": "col",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <option
+                  value="add"
+>
+                  Add another Currency
+</option>,
+                Array [
+                  <option
+                    value="USD"
+>
+                    USD
+</option>,
+                  <option
+                    value="EUR"
+>
+                    EUR
+</option>,
+                  <option
+                    value="CAD"
+>
+                    CAD
+</option>,
+                  <option
+                    value="IDR"
+>
+                    IDR
+</option>,
+                  <option
+                    value="GBP"
+>
+                    GBP
+</option>,
+                  <option
+                    value="CHF"
+>
+                    CHF
+</option>,
+                  <option
+                    value="SGD"
+>
+                    SGD
+</option>,
+                  <option
+                    value="INR"
+>
+                    INR
+</option>,
+                  <option
+                    value="MYR"
+>
+                    MYR
+</option>,
+                  <option
+                    value="JPY"
+>
+                    JPY
+</option>,
+                  <option
+                    value="KRW"
+>
+                    KRW
+</option>,
+                ],
+              ],
+              "className": "custom-select form-control",
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add another Currency",
+                  "value": "add",
+                },
+                "ref": null,
+                "rendered": "Add another Currency",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "USD",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "USD",
+                  "value": "USD",
+                },
+                "ref": null,
+                "rendered": "USD",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "EUR",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "EUR",
+                  "value": "EUR",
+                },
+                "ref": null,
+                "rendered": "EUR",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "CAD",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "CAD",
+                  "value": "CAD",
+                },
+                "ref": null,
+                "rendered": "CAD",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "IDR",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "IDR",
+                  "value": "IDR",
+                },
+                "ref": null,
+                "rendered": "IDR",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "GBP",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "GBP",
+                  "value": "GBP",
+                },
+                "ref": null,
+                "rendered": "GBP",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "CHF",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "CHF",
+                  "value": "CHF",
+                },
+                "ref": null,
+                "rendered": "CHF",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "SGD",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "SGD",
+                  "value": "SGD",
+                },
+                "ref": null,
+                "rendered": "SGD",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "INR",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "INR",
+                  "value": "INR",
+                },
+                "ref": null,
+                "rendered": "INR",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "MYR",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "MYR",
+                  "value": "MYR",
+                },
+                "ref": null,
+                "rendered": "MYR",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "JPY",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "JPY",
+                  "value": "JPY",
+                },
+                "ref": null,
+                "rendered": "JPY",
+                "type": "option",
+              },
+              Object {
+                "instance": null,
+                "key": "KRW",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "KRW",
+                  "value": "KRW",
+                },
+                "ref": null,
+                "rendered": "KRW",
+                "type": "option",
+              },
+            ],
+            "type": "select",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            Array [
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+            ],
+            Array [
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+            ],
+          ],
+          <div
+            className="row"
+>
+            <div
+                        className="col"
+            >
+                        <select
+                                    className="custom-select form-control"
+                                    onChange={[Function]}
+                        >
+                                    <option
+                                                value="add"
+                                    >
+                                                Add another Currency
+                                    </option>
+                                    <option
+                                                value="USD"
+                                    >
+                                                USD
+                                    </option>
+                                    <option
+                                                value="EUR"
+                                    >
+                                                EUR
+                                    </option>
+                                    <option
+                                                value="CAD"
+                                    >
+                                                CAD
+                                    </option>
+                                    <option
+                                                value="IDR"
+                                    >
+                                                IDR
+                                    </option>
+                                    <option
+                                                value="GBP"
+                                    >
+                                                GBP
+                                    </option>
+                                    <option
+                                                value="CHF"
+                                    >
+                                                CHF
+                                    </option>
+                                    <option
+                                                value="SGD"
+                                    >
+                                                SGD
+                                    </option>
+                                    <option
+                                                value="INR"
+                                    >
+                                                INR
+                                    </option>
+                                    <option
+                                                value="MYR"
+                                    >
+                                                MYR
+                                    </option>
+                                    <option
+                                                value="JPY"
+                                    >
+                                                JPY
+                                    </option>
+                                    <option
+                                                value="KRW"
+                                    >
+                                                KRW
+                                    </option>
+                        </select>
+            </div>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="col"
+>
+              <select
+                            className="custom-select form-control"
+                            onChange={[Function]}
+              >
+                            <option
+                                          value="add"
+                            >
+                                          Add another Currency
+                            </option>
+                            <option
+                                          value="USD"
+                            >
+                                          USD
+                            </option>
+                            <option
+                                          value="EUR"
+                            >
+                                          EUR
+                            </option>
+                            <option
+                                          value="CAD"
+                            >
+                                          CAD
+                            </option>
+                            <option
+                                          value="IDR"
+                            >
+                                          IDR
+                            </option>
+                            <option
+                                          value="GBP"
+                            >
+                                          GBP
+                            </option>
+                            <option
+                                          value="CHF"
+                            >
+                                          CHF
+                            </option>
+                            <option
+                                          value="SGD"
+                            >
+                                          SGD
+                            </option>
+                            <option
+                                          value="INR"
+                            >
+                                          INR
+                            </option>
+                            <option
+                                          value="MYR"
+                            >
+                                          MYR
+                            </option>
+                            <option
+                                          value="JPY"
+                            >
+                                          JPY
+                            </option>
+                            <option
+                                          value="KRW"
+                            >
+                                          KRW
+                            </option>
+              </select>
+</div>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <select
+                className="custom-select form-control"
+                onChange={[Function]}
+>
+                <option
+                                value="add"
+                >
+                                Add another Currency
+                </option>
+                <option
+                                value="USD"
+                >
+                                USD
+                </option>
+                <option
+                                value="EUR"
+                >
+                                EUR
+                </option>
+                <option
+                                value="CAD"
+                >
+                                CAD
+                </option>
+                <option
+                                value="IDR"
+                >
+                                IDR
+                </option>
+                <option
+                                value="GBP"
+                >
+                                GBP
+                </option>
+                <option
+                                value="CHF"
+                >
+                                CHF
+                </option>
+                <option
+                                value="SGD"
+                >
+                                SGD
+                </option>
+                <option
+                                value="INR"
+                >
+                                INR
+                </option>
+                <option
+                                value="MYR"
+                >
+                                MYR
+                </option>
+                <option
+                                value="JPY"
+                >
+                                JPY
+                </option>
+                <option
+                                value="KRW"
+                >
+                                KRW
+                </option>
+</select>,
+              "className": "col",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <option
+                    value="add"
+>
+                    Add another Currency
+</option>,
+                  Array [
+                    <option
+                      value="USD"
+>
+                      USD
+</option>,
+                    <option
+                      value="EUR"
+>
+                      EUR
+</option>,
+                    <option
+                      value="CAD"
+>
+                      CAD
+</option>,
+                    <option
+                      value="IDR"
+>
+                      IDR
+</option>,
+                    <option
+                      value="GBP"
+>
+                      GBP
+</option>,
+                    <option
+                      value="CHF"
+>
+                      CHF
+</option>,
+                    <option
+                      value="SGD"
+>
+                      SGD
+</option>,
+                    <option
+                      value="INR"
+>
+                      INR
+</option>,
+                    <option
+                      value="MYR"
+>
+                      MYR
+</option>,
+                    <option
+                      value="JPY"
+>
+                      JPY
+</option>,
+                    <option
+                      value="KRW"
+>
+                      KRW
+</option>,
+                  ],
+                ],
+                "className": "custom-select form-control",
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add another Currency",
+                    "value": "add",
+                  },
+                  "ref": null,
+                  "rendered": "Add another Currency",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "USD",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "USD",
+                    "value": "USD",
+                  },
+                  "ref": null,
+                  "rendered": "USD",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "EUR",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "EUR",
+                    "value": "EUR",
+                  },
+                  "ref": null,
+                  "rendered": "EUR",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "CAD",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CAD",
+                    "value": "CAD",
+                  },
+                  "ref": null,
+                  "rendered": "CAD",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "IDR",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "IDR",
+                    "value": "IDR",
+                  },
+                  "ref": null,
+                  "rendered": "IDR",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "GBP",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "GBP",
+                    "value": "GBP",
+                  },
+                  "ref": null,
+                  "rendered": "GBP",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "CHF",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CHF",
+                    "value": "CHF",
+                  },
+                  "ref": null,
+                  "rendered": "CHF",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "SGD",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "SGD",
+                    "value": "SGD",
+                  },
+                  "ref": null,
+                  "rendered": "SGD",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "INR",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "INR",
+                    "value": "INR",
+                  },
+                  "ref": null,
+                  "rendered": "INR",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "MYR",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "MYR",
+                    "value": "MYR",
+                  },
+                  "ref": null,
+                  "rendered": "MYR",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "JPY",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JPY",
+                    "value": "JPY",
+                  },
+                  "ref": null,
+                  "rendered": "JPY",
+                  "type": "option",
+                },
+                Object {
+                  "instance": null,
+                  "key": "KRW",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "KRW",
+                    "value": "KRW",
+                  },
+                  "ref": null,
+                  "rendered": "KRW",
+                  "type": "option",
+                },
+              ],
+              "type": "select",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
